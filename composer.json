@@ -1,5 +1,5 @@
 {
-  "name": "robertboes/laravel-lti",
+  "name": "huddledigital/laravel-lti",
   "description": "A Laravel implementation for the LTI Tool Provider Library",
   "keywords": [
     "lti", "imsglobal"
@@ -13,7 +13,7 @@
     }
   ],
   "require": {
-    "php": "^7.0",
+    "php": "^5.6",
     "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
     "Illuminate/Database": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
     "illuminate/console": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
