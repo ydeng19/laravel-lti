@@ -2,9 +2,9 @@
 
 namespace RobertBoes\LaravelLti\ToolProvider;
 
-use IMSGlobal\LTI\ToolProvider\ToolProvider;
+use IMSGlobal\LTI\ToolProvider\ToolProvider as IMSToolProvider;
 
-class ToolProviderBase extends ToolProvider
+class ToolProviderBase extends IMSToolProvider
 {
     public function onLaunch()
     {

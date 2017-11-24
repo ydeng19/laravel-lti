@@ -18,7 +18,7 @@ class CreateLTITables extends Migration
         Schema::create($this->prefix . 'lti2_consumer', function (Blueprint $table) {
             $table->increments('consumer_pk');
             $table->string('name', 50);
-            $table->string('consumer_key256', 256);
+            $table->string('consumer_key256', 255);
             $table->text('consumer_key')->nullable();
             $table->string('secret', 1024);
             $table->string('lti_version', 10)->nullable();

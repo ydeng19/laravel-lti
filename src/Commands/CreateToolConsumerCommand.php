@@ -8,7 +8,7 @@ use RobertBoes\LaravelLti\LTI;
 
 class CreateToolConsumerCommand extends Command
 {
-    protected $signature = 'lti:create-tool-consumer';
+    protected $name = 'lti:create-tool-consumer';
 
     protected $description = 'Creates a new tool consumer';
 
