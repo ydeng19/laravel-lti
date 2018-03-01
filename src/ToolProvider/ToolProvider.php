@@ -30,4 +30,8 @@ class ToolProvider extends ToolBase
         $this->checkToolProvider();
         $this->provider->handleRequest();
     }
+
+    public function getToolProvider() {
+        return $this->provider;
+    }
 }
