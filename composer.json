@@ -14,7 +14,7 @@
   ],
   "require": {
     "php": "^5.6",
-    "huddledigital/lti": "dev-master"
+    "huddledigital/lti": "3.0.4"
   },
   "autoload": {
     "psr-4": {
