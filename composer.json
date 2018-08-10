@@ -14,7 +14,7 @@
   ],
   "require": {
     "php": "^5.6",
-    "imsglobal/lti": "3.0.2"
+    "imsglobal/lti": "dev-master"
   },
   "autoload": {
     "psr-4": {
