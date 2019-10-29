@@ -21,7 +21,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "^7.0"
+                "php": "7.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^6.2"
@@ -773,7 +773,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.0"
+        "php": "7.0"
     },
     "platform-dev": []
 }
